@@ -59,7 +59,6 @@ GameObject:
   - component: {fileID: 7153787231802326974}
   - component: {fileID: 7153787231802326969}
   - component: {fileID: 7153787231802326968}
-  - component: {fileID: 7153787231802326971}
   - component: {fileID: 7153787231802326970}
   - component: {fileID: 4522530832311679612}
   m_Layer: 8
@@ -193,37 +192,13 @@ MonoBehaviour:
         m_CallState: 2
   OnDrop:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7153787231802326971}
-        m_TargetAssemblyTypeName: ThrowForce, Assembly-CSharp
-        m_MethodName: AddForce
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_allowOffhandGrab: 1
   m_snapPosition: 0
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_materialColorField: _OutlineColor
---- !u!114 &7153787231802326971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7153787231802326965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2996d56ece1b24d4f91823c210874295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7153787231802326970
 MonoBehaviour:
   m_ObjectHideFlags: 0
