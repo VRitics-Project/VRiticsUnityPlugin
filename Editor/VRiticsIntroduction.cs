@@ -1,3 +1,4 @@
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 using Application = UnityEngine.Device.Application;
@@ -63,7 +64,7 @@ namespace VRitics.Editor {
 
 			EditorGUILayout.Space ();
 			if (GUILayout.Button ("Open full manual file")) {
-				Application.OpenURL (Application.dataPath + "../Library/PackageCache/com.vritics-project.vriticsunityplugin@7738e805e5/Documentation/VRitics Manual.pdf");
+				Application.OpenURL (Path.GetFullPath("Packages/com.vritics-project.vriticsunityplugin/Documentation/VRiticsManual.pdf"));
 			}
 		}
 
