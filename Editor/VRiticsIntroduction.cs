@@ -7,12 +7,12 @@ namespace VRitics.Editor {
 		static bool _isFirstRun = true;
 
 		string appId = "";
+		string token = "";
 
 		VRiticsConfigFile configFile;
 		bool sendOnDestroy;
 		string sessionName = "";
 		bool startOnStart;
-		string token = "";
 
 		void OnEnable () {
 			if (_isFirstRun) {
@@ -63,7 +63,7 @@ namespace VRitics.Editor {
 
 			EditorGUILayout.Space ();
 			if (GUILayout.Button ("Open full manual file")) {
-				Application.OpenURL (Application.dataPath + "/VRitics/Documentation/VRitics Manual.pdf");
+				Application.OpenURL (Application.dataPath + "/../Packages/com.vritics-project.vriticsunityplugin/Documentation/VRitics Manual.pdf");
 			}
 		}
 
