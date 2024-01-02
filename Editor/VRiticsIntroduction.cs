@@ -61,11 +61,11 @@ namespace VRitics.Editor {
 				var vRiticsSession = setupObject.AddComponent<EventsSessionRecorder> ();
 				vRiticsSession.sessionName = sessionName;
 			}
-
-			EditorGUILayout.Space ();
-			if (GUILayout.Button ("Open full manual file")) {
-				Application.OpenURL (Path.GetFullPath("Packages/com.vritics-project.vriticsunityplugin/Documentation/VRiticsManual.pdf"));
-			}
+			//
+			// EditorGUILayout.Space ();
+			// if (GUILayout.Button ("Open full manual file")) {
+			// 	Application.OpenURL (Path.GetFullPath("Packages/com.vritics-project.vriticsunityplugin/Documentation/VRiticsManual.pdf"));
+			// }
 		}
 
 		void CreateConfigFile (string appId, string token) {
