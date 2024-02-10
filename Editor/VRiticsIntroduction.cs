@@ -29,7 +29,7 @@ namespace VRitics.Editor {
 			GUILayout.Label ("To have access to data analysis you need to create account and obtain AppID and Token from VRitics website.", EditorStyles.wordWrappedLabel);
 
 			if (GUILayout.Button ("Open VRitics website")) {
-				Application.OpenURL ("http://vr-dashboard.server306419.nazwa.pl/");
+				Application.OpenURL ("https://dashboard.vritics.com/");
 			}
 
 			EditorGUILayout.Space ();
